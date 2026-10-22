@@ -1,25 +1,108 @@
 aid: membranelabs-com
+
 name: Membrane
-description: 'Membrane is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by electric-capital) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Membrane is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by electric-capital) and added
+  to the network as a stub for full-pipeline profiling.'
+
 url: https://raw.githubusercontent.com/api-evangelist/membranelabs-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- electric-capital
+
 common:
+- type: Vendors
+  url: vendors/membranelabs-com-vendors.yml
+- type: Spectral
+  url: rules/membranelabs-com-rules.yml
+- type: JSONLD
+  url: json-ld/membranelabs-com-context.jsonld
+- type: Vocabulary
+  url: vocabulary/membranelabs-com-vocabulary.yml
+- type: DataModel
+  url: data-model/membranelabs-com-data-model.yml
+- type: Idempotency
+  url: conventions/membranelabs-com-conventions.yml
+- type: Conventions
+  url: conventions/membranelabs-com-conventions.yml
+- type: Conformance
+  url: conformance/membranelabs-com-conformance.yml
+- type: LLMsTxt
+  url: llms/membranelabs-com-llms.txt
+- type: SecurityTxt
+  url: well-known/membranelabs-com-status-security.txt
+- type: WellKnown
+  url: well-known/membranelabs-com-well-known.yml
+- type: Hosts
+  url: hosts/membranelabs-com-hosts.yml
+- type: StatusPage
+  url: https://status.membranelabs.com/
+- type: Pricing
+  url: https://docs.membranelabs.com/assets-and-prices/pricing-feed
+- type: ChangeLog
+  url: https://docs.membranelabs.com/release-notes
+- type: GettingStarted
+  url: https://docs.membranelabs.com/specs/email-notifications/slack-integration-setup-guide
+- type: Documentation
+  url: https://docs.membranelabs.com/
+- type: DomainSecurity
+  url: security/membranelabs-com-domain-security.yml
 - type: Website
   url: https://membranelabs.com/
+
+apis:
+- aid: membranelabs-com:membranelabs-com-api
+  name: Membrane API
+  description: 'Membrane API as documented publicly: 27 operations. Contract generated from the documentation by API Evangelist (2026-10-22);
+    not the provider''s own document.'
+  humanURL: https://docs.membranelabs.com/specs/webhook-events.md
+  baseURL: https://api.membranelabs.com/api/lending
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/membranelabs-com-get-v2-loans-loanid-fees-feeid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/membranelabs-com-post-v2-loans-loanid-fees-request-schema.json
+  - type: JSONSchema
+    url: json-schema/membranelabs-com-patch-v2-loans-loanid-fees-feeid-request-schema.json
+  - type: JSONSchema
+    url: json-schema/membranelabs-com-get-v2-loans-loanid-fees-response-schema.json
+  - type: JSONSchema
+    url: json-schema/membranelabs-com-post-v2-loans-loanid-waivers-request-schema.json
+  - type: JSONSchema
+    url: json-schema/membranelabs-com-post-v1-payment-off-platform-request-schema.json
+
+x-backed-by:
+- electric-capital
+
+x-coverage:
+  state: blocked
+  reason: bot-challenge
+  detail: Homepage https://membranelabs.com/ returned a bot challenge (HTTP 202 with redirect to captcha).
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 24
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

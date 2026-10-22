@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/membranelabs-com/main/json-schema/membranelabs-com-post-v1-payment-off-platform-request-schema.json",
+  "title": "PostV1PaymentOffPlatformRequest",
+  "x-generated": "2026-10-22",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV1PaymentOffPlatformRequest",
+  "type": "object",
+  "properties": {
+    "positionId": {
+      "type": "string"
+    },
+    "assetId": {
+      "type": "number"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "completedAt": {
+      "type": "string"
+    },
+    "transactionId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "positionId",
+    "assetId",
+    "amount",
+    "note",
+    "completedAt",
+    "transactionId"
+  ]
+}

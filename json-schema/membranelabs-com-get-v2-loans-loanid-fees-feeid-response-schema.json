@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/membranelabs-com/main/json-schema/membranelabs-com-get-v2-loans-loanid-fees-feeid-response-schema.json",
+  "title": "GetV2LoansLoanidFeesFeeidResponse",
+  "x-generated": "2026-10-22",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV2LoansLoanidFeesFeeidResponse",
+  "type": "object",
+  "properties": {
+    "amount": {
+      "type": "string",
+      "description": "Fee amount as a decimal string"
+    },
+    "assetId": {
+      "type": "number",
+      "description": "Asset ID that the fee is denominated in"
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of fee"
+    },
+    "billedTo": {
+      "type": "string",
+      "description": "Party responsible for paying the fee"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Optional display and audit metadata for the fee"
+    },
+    "pastDueWindow": {
+      "type": "object",
+      "description": "Grace period after the due date before the fee is marked as past due"
+    },
+    "dueDate": {
+      "type": "string",
+      "description": "Date by which the fee must be paid"
+    },
+    "id": {
+      "type": "string",
+      "description": "Fee ID"
+    },
+    "loanId": {
+      "type": "string",
+      "description": "Loan ID this fee belongs to"
+    },
+    "paymentId": {
+      "type": "string",
+      "description": "Payment ID if this fee has been settled"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current status of the fee"
+    },
+    "dueStatus": {
+      "type": "string",
+      "description": "The due status of the fee"
+    },
+    "resolvedAt": {
+      "type": "string",
+      "description": "Timestamp when the fee was resolved"
+    },
+    "createdAt": {
+      "type": "string",
+      "description": "Timestamp when the fee was created"
+    },
+    "createdBy": {
+      "type": "string",
+      "description": "The creator of the fee"
+    }
+  }
+}

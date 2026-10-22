@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://membranelabs.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "membranelabs": "https://membranelabs.com/schema#",
+    "GetDevelopersOktaConnectionMdResponse": "membranelabs:GetDevelopersOktaConnectionMdResponse",
+    "content": {
+      "@id": "membranelabs:content",
+      "@type": "xsd:string"
+    },
+    "PostLoanEventRequest": "membranelabs:PostLoanEventRequest",
+    "loan_id": {
+      "@id": "membranelabs:loan_id",
+      "@type": "xsd:string"
+    },
+    "action": {
+      "@id": "membranelabs:action",
+      "@type": "xsd:string"
+    },
+    "PostV1PaymentOffPlatformRequest": "membranelabs:PostV1PaymentOffPlatformRequest",
+    "positionId": {
+      "@id": "membranelabs:positionId",
+      "@type": "xsd:string"
+    },
+    "assetId": {
+      "@id": "membranelabs:assetId",
+      "@type": "xsd:decimal"
+    },
+    "amount": {
+      "@id": "membranelabs:amount",
+      "@type": "xsd:string"
+    },
+    "note": {
+      "@id": "membranelabs:note",
+      "@type": "xsd:string"
+    },
+    "completedAt": {
+      "@id": "membranelabs:completedAt",
+      "@type": "xsd:string"
+    },
+    "transactionId": {
+      "@id": "membranelabs:transactionId",
+      "@type": "xsd:string"
+    },
+    "PostV1PaymentOffPlatformResponse": "membranelabs:PostV1PaymentOffPlatformResponse",
+    "GetV1QuoteResponse": "membranelabs:GetV1QuoteResponse",
+    "PostV1QuoteRequest": "membranelabs:PostV1QuoteRequest",
+    "CreateQuoteBodyDto": {
+      "@id": "membranelabs:CreateQuoteBodyDto",
+      "@type": "xsd:string"
+    },
+    "PostV1QuoteResponse": "membranelabs:PostV1QuoteResponse",
+    "GetV1QuoteAllResponse": "membranelabs:GetV1QuoteAllResponse",
+    "GetV2LoansLoanidFeesResponse": "membranelabs:GetV2LoansLoanidFeesResponse",
+    "entries": {
+      "@id": "membranelabs:entries",
+      "@container": "@list"
+    },
+    "totalCount": {
+      "@id": "membranelabs:totalCount",
+      "@type": "xsd:decimal"
+    },
+    "aggregates": {
+      "@id": "membranelabs:aggregates"
+    },
+    "PostV2LoansLoanidFeesRequest": "membranelabs:PostV2LoansLoanidFeesRequest",
+    "type": {
+      "@id": "membranelabs:type",
+      "@type": "xsd:string"
+    },
+    "billedTo": {
+      "@id": "membranelabs:billedTo",
+      "@type": "xsd:string"
+    },
+    "metadata": {
+      "@id": "membranelabs:metadata",
+      "@type": "xsd:string"
+    },
+    "pastDueWindow": {
+      "@id": "membranelabs:pastDueWindow",
+      "@type": "xsd:string"
+    },
+    "dueDate": {
+      "@id": "membranelabs:dueDate",
+      "@type": "xsd:string"
+    },
+    "PostV2LoansLoanidFeesResponse": "membranelabs:PostV2LoansLoanidFeesResponse",
+    "id": {
+      "@id": "membranelabs:id",
+      "@type": "xsd:string"
+    },
+    "DeleteV2LoansLoanidFeesFeeidResponse": "membranelabs:DeleteV2LoansLoanidFeesFeeidResponse",
+    "message": {
+      "@id": "membranelabs:message",
+      "@type": "xsd:string"
+    },
+    "GetV2LoansLoanidFeesFeeidResponse": "membranelabs:GetV2LoansLoanidFeesFeeidResponse",
+    "loanId": {
+      "@id": "membranelabs:loanId",
+      "@type": "xsd:string"
+    },
+    "paymentId": {
+      "@id": "membranelabs:paymentId",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "membranelabs:status",
+      "@type": "xsd:string"
+    },
+    "dueStatus": {
+      "@id": "membranelabs:dueStatus",
+      "@type": "xsd:string"
+    },
+    "resolvedAt": {
+      "@id": "membranelabs:resolvedAt",
+      "@type": "xsd:string"
+    },
+    "createdAt": {
+      "@id": "membranelabs:createdAt",
+      "@type": "xsd:string"
+    },
+    "createdBy": {
+      "@id": "membranelabs:createdBy",
+      "@type": "xsd:string"
+    },
+    "PatchV2LoansLoanidFeesFeeidRequest": "membranelabs:PatchV2LoansLoanidFeesFeeidRequest",
+    "PatchV2LoansLoanidFeesFeeidResponse": "membranelabs:PatchV2LoansLoanidFeesFeeidResponse",
+    "PostV2LoansLoanidWaiversRequest": "membranelabs:PostV2LoansLoanidWaiversRequest",
+    "waiverType": {
+      "@id": "membranelabs:waiverType",
+      "@type": "xsd:string"
+    },
+    "PostV2LoansLoanidWaiversResponse": "membranelabs:PostV2LoansLoanidWaiversResponse",
+    "PostV2PaymentOffPlatformRequest": "membranelabs:PostV2PaymentOffPlatformRequest",
+    "PostV2PaymentOffPlatformResponse": "membranelabs:PostV2PaymentOffPlatformResponse",
+    "GetV2QuoteResponse": "membranelabs:GetV2QuoteResponse",
+    "PostV2QuoteRequest": "membranelabs:PostV2QuoteRequest",
+    "PostV2QuoteResponse": "membranelabs:PostV2QuoteResponse",
+    "GetV2QuoteAllResponse": "membranelabs:GetV2QuoteAllResponse"
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Membrane API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Membrane's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-22) from openapi/_ae-authored/membranelabs-com-openapi-generated.yml.",
+  "dcterms:created": "2026-10-22",
+  "dcterms:source": [
+    "openapi/_ae-authored/membranelabs-com-openapi-generated.yml"
+  ]
+}

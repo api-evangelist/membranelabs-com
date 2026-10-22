@@ -1,0 +1,1181 @@
+openapi: 3.1.0
+info:
+  title: Membrane API
+  version: '2026-10-22'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-22: 27 operation(s) read from 23 public documentation page(s) (each
+    operation names its page in x-source). This is not the provider''s published contract; Membrane has published no machine-readable contract
+    that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 27
+    pages-with-code: 0
+    pages-read: 23
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-22'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.membranelabs.com/specs/webhook-events.md
+  - https://docs.membranelabs.com/custodylink-tm/treasury/api-access.md
+  - https://docs.membranelabs.com/developers/event-relayer/webhook-settings.md
+  - https://docs.membranelabs.com/financial-modules/lending/margin-methodology.md
+  - https://docs.membranelabs.com/financial-modules/lending/interest-calculations.md
+  - https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology.md
+  - https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual.md
+  - https://docs.membranelabs.com/financial-modules/lending/margin-methodology/marking-methodology.md
+  - https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-balances.md
+  - https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology/marking-methodology-and-cycle.md
+  - https://docs.membranelabs.com/financial-modules/lending/obligations-payments-and-balance-in-a-loan/interest-payment-frequency.md
+  - https://docs.membranelabs.com/developers/introduction.md
+  - https://docs.membranelabs.com/developers/lending/fees.md
+  - https://docs.membranelabs.com/developers/lending/loans.md
+  - https://docs.membranelabs.com/developers/lending/repos.md
+  - https://docs.membranelabs.com/developers/trading/quote.md
+  - https://docs.membranelabs.com/developers/authentication.md
+  - https://docs.membranelabs.com/developers/lending/drafts.md
+  - https://docs.membranelabs.com/developers/risk-beta/risk.md
+  - https://docs.membranelabs.com/developers/collateral/fees.md
+  - https://docs.membranelabs.com/developers/lending/waivers.md
+  - https://docs.membranelabs.com/developers/okta-connection.md
+  - https://docs.membranelabs.com/developers/trading/payment.md
+servers:
+- url: https://api.membranelabs.com/api/lending
+paths:
+  /api/v2/users/roles/permissions:
+    get:
+      operationId: get_api_v2_users_roles_permissions
+      tags:
+      - Api
+      summary: Add custom permissions to self-signed JWT
+      description: Retrieves the list of available scopes you can add to your JWT. If `roleId` is provided, only scopes for that role are returned;
+        otherwise all platform scopes are returned.
+      x-source: https://docs.membranelabs.com/developers/authentication.md
+      parameters:
+      - name: roleId
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The role ID assigned to your API key to list only the available scopes for that role.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /custodylink-tm/treasury/api-access.md:
+    get:
+      operationId: get_custodylink_tm_treasury_api_access_md
+      tags:
+      - Custodylink Tm
+      summary: API Access
+      x-source: https://docs.membranelabs.com/custodylink-tm/treasury/api-access.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: 'The immediate question: it should be specific, self-contained, and written in natural language.'
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user's ultimate goal, describing the outcome they want.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /developers/introduction.md:
+    get:
+      operationId: get_developers_introduction_md
+      tags:
+      - Developers
+      summary: Introduction
+      x-source: https://docs.membranelabs.com/developers/introduction.md
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /developers/okta-connection.md:
+    get:
+      operationId: get_developers_okta_connection_md
+      tags:
+      - Developers
+      summary: Okta Connection
+      description: Perform an HTTP GET request on the URL with optional `ask` and `goal` query parameters to retrieve the documentation page or
+        ask a question.
+      x-source: https://docs.membranelabs.com/developers/okta-connection.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question to ask the documentation engine.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The broader goal the user is trying to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetDevelopersOktaConnectionMdResponse'
+      x-evidence:
+        kind: documentation
+  /financial-modules/derivatives/margin-methodology.md:
+    get:
+      operationId: get_financial_modules_derivatives_margin_methodology_md
+      tags:
+      - Financial Modules
+      summary: Margin Methodology
+      description: Performs an HTTP GET request on the documentation page with optional `ask` and `goal` query parameters to retrieve a direct
+        answer and relevant excerpts from the documentation.
+      x-source: https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/derivatives/margin-methodology/marking-methodology-and-cycle.md:
+    get:
+      operationId: get_financial_modules_derivatives_margin_methodology_marking_methodology_and_cyc
+      tags:
+      - Financial Modules
+      summary: Marking Methodology & Cycle
+      description: Perform an HTTP GET request on the documentation page with optional `ask` and `goal` query parameters to retrieve a direct
+        answer and relevant excerpts from the documentation.
+      x-source: https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology/marking-methodology-and-cycle.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question; specific, self‑contained, natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal; describes the outcome they want.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/lending/interest-calculations.md:
+    get:
+      operationId: get_financial_modules_lending_interest_calculations_md
+      tags:
+      - Financial Modules
+      summary: Interest Calculations
+      description: Perform an HTTP GET request on the URL with optional `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://docs.membranelabs.com/financial-modules/lending/interest-calculations.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question to ask the documentation, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The broader goal the user is trying to achieve, providing context for a more relevant answer.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/lending/interest-calculations/interest-accrual.md:
+    get:
+      operationId: get_financial_modules_lending_interest_calculations_interest_accrual_md
+      tags:
+      - Financial Modules
+      summary: Interest Accrual
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/lending/interest-calculations/interest-balances.md:
+    get:
+      operationId: get_financial_modules_lending_interest_calculations_interest_balances_md
+      tags:
+      - Financial Modules
+      summary: Interest Balances
+      x-source: https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-balances.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/lending/margin-methodology.md:
+    get:
+      operationId: get_financial_modules_lending_margin_methodology_md
+      tags:
+      - Financial Modules
+      summary: Margin Methodology
+      description: Retrieves the Markdown documentation for the margin methodology. Optional query parameters `ask` and `goal` can be provided
+        to get a direct answer from the documentation platform.
+      x-source: https://docs.membranelabs.com/financial-modules/lending/margin-methodology.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/lending/margin-methodology/marking-methodology.md:
+    get:
+      operationId: get_financial_modules_lending_margin_methodology_marking_methodology_md
+      tags:
+      - Financial Modules
+      summary: Marking Methodology
+      x-source: https://docs.membranelabs.com/financial-modules/lending/margin-methodology/marking-methodology.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: 'The immediate question: it should be specific, self-contained, and written in natural language.'
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user's ultimate goal, describing the outcome they want rather than restating the question.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /financial-modules/lending/obligations-payments-and-balance-in-a-loan/interest-payment-frequency.md:
+    get:
+      operationId: get_financial_modules_lending_obligations_payments_and_balance_in_a_loan_interes
+      tags:
+      - Financial Modules
+      summary: Interest Payment Frequency
+      description: Retrieves the Markdown documentation page describing a loan's interest payment frequency settings, including calendar‑anchored
+        and open‑date‑anchored options.
+      x-source: https://docs.membranelabs.com/financial-modules/lending/obligations-payments-and-balance-in-a-loan/interest-payment-frequency.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /loan-event:
+    post:
+      operationId: post_loan_event
+      tags:
+      - Loan Event
+      summary: Webhook Events
+      x-source: https://docs.membranelabs.com/specs/webhook-events.md
+      parameters:
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+        description: Bearer API key provided by the recipient
+      - name: X-RSA-SHA256-Signature
+        in: header
+        required: true
+        schema:
+          type: string
+        description: Signature of the request body
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostLoanEventRequest'
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /v1/payment/off-platform:
+    post:
+      operationId: post_v1_payment_off_platform
+      tags:
+      - Payment
+      summary: Create off platform payment
+      description: Create off platform payment
+      x-source: https://docs.membranelabs.com/developers/trading/payment.md
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV1PaymentOffPlatformRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostV1PaymentOffPlatformResponse'
+      x-evidence:
+        kind: documentation
+  /v1/quote:
+    get:
+      operationId: get_v1_quote
+      tags:
+      - Quote
+      summary: Get quote
+      description: Get quote
+      x-source: https://docs.membranelabs.com/developers/trading/quote.md
+      parameters:
+      - name: quoteId
+        in: query
+        required: true
+        schema:
+          type: string
+        description: ID of the quote
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV1QuoteResponse'
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_v1_quote
+      tags:
+      - Quote
+      summary: Create quote
+      description: Create quote
+      x-source: https://docs.membranelabs.com/developers/trading/quote.md
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV1QuoteRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostV1QuoteResponse'
+      x-evidence:
+        kind: documentation
+  /v1/quote/all:
+    get:
+      operationId: get_v1_quote_all
+      tags:
+      - Quote
+      summary: Get all quotes
+      description: Get all quotes
+      x-source: https://docs.membranelabs.com/developers/trading/quote.md
+      parameters:
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: string
+        description: How many records to return
+      - name: offset
+        in: query
+        required: false
+        schema:
+          type: string
+        description: How many records to skip
+      - name: orderBy
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Field to order. Defaults to createdAt
+      - name: order
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Order direction. Defaults to desc
+      - name: counterpartyId
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: recipientId
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: assetId
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: status
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: direction
+        in: query
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV1QuoteAllResponse'
+      x-evidence:
+        kind: documentation
+  /v2/loans/{loanid}/fees:
+    get:
+      operationId: get_v2_loans_loanid_fees
+      tags:
+      - Loans
+      summary: Get fees for a loan
+      x-source: https://docs.membranelabs.com/developers/lending/fees.md
+      parameters:
+      - name: loanid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: status
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Filter fees by status
+      - name: includeAggregates
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Include outstanding fee aggregates in the response
+      - name: limit
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The number of items per page.
+      - name: offset
+        in: query
+        required: true
+        schema:
+          type: string
+        description: Determines the number of items to skip.
+      - name: count
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Whether to return the total number of items.
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV2LoansLoanidFeesResponse'
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_v2_loans_loanid_fees
+      tags:
+      - Loans
+      summary: Create a fee for a loan
+      x-source: https://docs.membranelabs.com/developers/lending/fees.md
+      parameters:
+      - name: loanid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: Idempotency-Key
+        in: header
+        required: false
+        schema:
+          type: string
+        description: Optional idempotency key to ensure the request is processed only once
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV2LoansLoanidFeesRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostV2LoansLoanidFeesResponse'
+      x-evidence:
+        kind: documentation
+  /v2/loans/{loanid}/fees/{feeid}:
+    delete:
+      operationId: delete_v2_loans_loanid_fees_feeid
+      tags:
+      - Loans
+      summary: Delete a fee for a loan
+      x-source: https://docs.membranelabs.com/developers/lending/fees.md
+      parameters:
+      - name: loanid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: feeid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DeleteV2LoansLoanidFeesFeeidResponse'
+      x-evidence:
+        kind: documentation
+    get:
+      operationId: get_v2_loans_loanid_fees_feeid
+      tags:
+      - Loans
+      summary: Get a fee by ID
+      x-source: https://docs.membranelabs.com/developers/lending/fees.md
+      parameters:
+      - name: loanid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: feeid
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV2LoansLoanidFeesFeeidResponse'
+      x-evidence:
+        kind: documentation
+    patch:
+      operationId: patch_v2_loans_loanid_fees_feeid
+      tags:
+      - Loans
+      summary: Update a fee for a loan
+      x-source: https://docs.membranelabs.com/developers/lending/fees.md
+      parameters:
+      - name: loanid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: feeid
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchV2LoansLoanidFeesFeeidRequest'
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PatchV2LoansLoanidFeesFeeidResponse'
+      x-evidence:
+        kind: documentation
+  /v2/loans/{loanid}/waivers:
+    post:
+      operationId: post_v2_loans_loanid_waivers
+      tags:
+      - Loans
+      summary: Waive a loan obligation
+      x-source: https://docs.membranelabs.com/developers/lending/waivers.md
+      parameters:
+      - name: loanid
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV2LoansLoanidWaiversRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostV2LoansLoanidWaiversResponse'
+      x-evidence:
+        kind: documentation
+  /v2/payment/off-platform:
+    post:
+      operationId: post_v2_payment_off_platform
+      tags:
+      - Payment
+      summary: Create off platform payment
+      description: Create off platform payment
+      x-source: https://docs.membranelabs.com/developers/trading/payment.md
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV2PaymentOffPlatformRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostV2PaymentOffPlatformResponse'
+      x-evidence:
+        kind: documentation
+  /v2/quote:
+    get:
+      operationId: get_v2_quote
+      tags:
+      - Quote
+      summary: Get quote details
+      description: Get quote details
+      x-source: https://docs.membranelabs.com/developers/trading/quote.md
+      parameters:
+      - name: quoteId
+        in: query
+        required: true
+        schema:
+          type: string
+        description: ID of the quote
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV2QuoteResponse'
+      x-evidence:
+        kind: documentation
+    post:
+      operationId: post_v2_quote
+      tags:
+      - Quote
+      summary: Create a quote
+      description: Create a quote
+      x-source: https://docs.membranelabs.com/developers/trading/quote.md
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostV2QuoteRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostV2QuoteResponse'
+      x-evidence:
+        kind: documentation
+  /v2/quote/all:
+    get:
+      operationId: get_v2_quote_all
+      tags:
+      - Quote
+      summary: Get a list of quotes
+      description: Get a list of quotes
+      x-source: https://docs.membranelabs.com/developers/trading/quote.md
+      parameters:
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: string
+        description: How many records to return
+      - name: offset
+        in: query
+        required: false
+        schema:
+          type: string
+        description: How many records to skip
+      - name: orderBy
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Field to order. Defaults to createdAt
+      - name: order
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Order direction. Defaults to desc
+      - name: counterpartyId
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: recipientId
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: assetId
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: status
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: direction
+        in: query
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV2QuoteAllResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    GetDevelopersOktaConnectionMdResponse:
+      type: object
+      properties:
+        content:
+          type: string
+          description: The markdown content of the Okta Connection documentation page.
+    PostLoanEventRequest:
+      type: object
+      properties:
+        loan_id:
+          type: string
+          description: Identifier of the loan
+        action:
+          type: string
+          description: Action type of the loan event
+      required:
+      - loan_id
+      - action
+    PostV1PaymentOffPlatformRequest:
+      type: object
+      properties:
+        positionId:
+          type: string
+        assetId:
+          type: number
+        amount:
+          type: string
+        note:
+          type: string
+        completedAt:
+          type: string
+        transactionId:
+          type: string
+      required:
+      - positionId
+      - assetId
+      - amount
+      - note
+      - completedAt
+      - transactionId
+    PostV1PaymentOffPlatformResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+          description: '*BadRequestException*'
+        '403':
+          type: string
+          description: '*ForbiddenException*'
+        '500':
+          type: string
+          description: '*InternalServerErrorException*'
+    GetV1QuoteResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+        '403':
+          type: string
+        '500':
+          type: integer
+    PostV1QuoteRequest:
+      type: object
+      properties:
+        CreateQuoteBodyDto:
+          type: string
+      required:
+      - CreateQuoteBodyDto
+    PostV1QuoteResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+        '403':
+          type: string
+        '500':
+          type: integer
+    GetV1QuoteAllResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+        '403':
+          type: string
+        '500':
+          type: integer
+    GetV2LoansLoanidFeesResponse:
+      type: object
+      properties:
+        entries:
+          type: array
+          description: List of fees for the requested page
+        totalCount:
+          type: number
+          description: Total number of fees matching the filter. Omitted when includeCount=false
+        aggregates:
+          type: object
+          description: Aggregate data, present only when includeAggregates=true
+    PostV2LoansLoanidFeesRequest:
+      type: object
+      properties:
+        amount:
+          type: string
+          description: Fee amount as a decimal string
+        assetId:
+          type: string
+          description: Asset ID that the fee is denominated in
+        type:
+          type: string
+          description: Type of fee
+        billedTo:
+          type: string
+          description: Party responsible for paying the fee. Use "lender" or "borrower" to refer to the loan participants, or provide an explicit
+            profile ID.
+        metadata:
+          type: string
+          description: Optional display and audit metadata for the fee
+        pastDueWindow:
+          type: string
+          description: Grace period after the due date before the fee is marked as past due
+        dueDate:
+          type: string
+          description: Date by which the fee must be paid, in ISO 8601 format
+      required:
+      - amount
+      - assetId
+      - type
+      - billedTo
+      - pastDueWindow
+      - dueDate
+    PostV2LoansLoanidFeesResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the newly created fee
+    DeleteV2LoansLoanidFeesFeeidResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: The message to be returned in the response
+    GetV2LoansLoanidFeesFeeidResponse:
+      type: object
+      properties:
+        amount:
+          type: string
+          description: Fee amount as a decimal string
+        assetId:
+          type: number
+          description: Asset ID that the fee is denominated in
+        type:
+          type: string
+          description: Type of fee
+        billedTo:
+          type: string
+          description: Party responsible for paying the fee
+        metadata:
+          type: object
+          description: Optional display and audit metadata for the fee
+        pastDueWindow:
+          type: object
+          description: Grace period after the due date before the fee is marked as past due
+        dueDate:
+          type: string
+          description: Date by which the fee must be paid
+        id:
+          type: string
+          description: Fee ID
+        loanId:
+          type: string
+          description: Loan ID this fee belongs to
+        paymentId:
+          type: string
+          description: Payment ID if this fee has been settled
+        status:
+          type: string
+          description: Current status of the fee
+        dueStatus:
+          type: string
+          description: The due status of the fee
+        resolvedAt:
+          type: string
+          description: Timestamp when the fee was resolved
+        createdAt:
+          type: string
+          description: Timestamp when the fee was created
+        createdBy:
+          type: string
+          description: The creator of the fee
+    PatchV2LoansLoanidFeesFeeidRequest:
+      type: object
+      properties:
+        amount:
+          type: string
+          description: Fee amount as a decimal string
+        assetId:
+          type: string
+          description: Asset ID that the fee is denominated in
+        billedTo:
+          type: string
+          description: Party responsible for paying the fee
+        metadata:
+          type: string
+          description: Optional display and audit metadata for the fee
+        dueDate:
+          type: string
+          description: Date by which the fee must be paid, in ISO 8601 format
+        pastDueWindow:
+          type: string
+          description: Grace period after the due date before the fee is marked as past due
+    PatchV2LoansLoanidFeesFeeidResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: The message to be returned in the response
+    PostV2LoansLoanidWaiversRequest:
+      type: object
+      properties:
+        waiverType:
+          type: string
+          description: Type of obligation being waived
+        amount:
+          type: string
+          description: Amount to waive as a decimal string
+        assetId:
+          type: number
+          description: Asset ID that the waiver is denominated in
+      required:
+      - waiverType
+      - amount
+      - assetId
+    PostV2LoansLoanidWaiversResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the newly created waiver
+    PostV2PaymentOffPlatformRequest:
+      type: object
+      properties:
+        positionId:
+          type: string
+        assetId:
+          type: number
+        amount:
+          type: string
+        note:
+          type: string
+        completedAt:
+          type: string
+        transactionId:
+          type: string
+      required:
+      - positionId
+      - assetId
+      - amount
+      - note
+      - completedAt
+      - transactionId
+    PostV2PaymentOffPlatformResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+          description: '*BadRequestException*'
+        '403':
+          type: string
+          description: '*ForbiddenException*'
+        '500':
+          type: string
+          description: '*InternalServerErrorException*'
+    GetV2QuoteResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+        '403':
+          type: string
+        '500':
+          type: integer
+    PostV2QuoteRequest:
+      type: object
+      properties:
+        CreateQuoteBodyDto:
+          type: string
+      required:
+      - CreateQuoteBodyDto
+    PostV2QuoteResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+        '403':
+          type: string
+        '500':
+          type: integer
+    GetV2QuoteAllResponse:
+      type: object
+      properties:
+        '200':
+          type: string
+        '400':
+          type: string
+        '403':
+          type: string
+        '500':
+          type: integer
+tags:
+- name: Api
+- name: Custodylink Tm
+- name: Developers
+- name: Financial Modules
+- name: Loan Event
+- name: Loans
+- name: Payment
+- name: Quote

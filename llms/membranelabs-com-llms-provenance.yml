@@ -1,0 +1,6 @@
+generated: '2026-10-22'
+method: probed
+generator: harvest-llms.py
+source: https://docs.membranelabs.com/llms.txt
+bytes: 25953
+note: saved verbatim; the provider's own document

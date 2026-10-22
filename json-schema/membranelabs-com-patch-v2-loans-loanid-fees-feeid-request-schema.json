@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/membranelabs-com/main/json-schema/membranelabs-com-patch-v2-loans-loanid-fees-feeid-request-schema.json",
+  "title": "PatchV2LoansLoanidFeesFeeidRequest",
+  "x-generated": "2026-10-22",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PatchV2LoansLoanidFeesFeeidRequest",
+  "type": "object",
+  "properties": {
+    "amount": {
+      "type": "string",
+      "description": "Fee amount as a decimal string"
+    },
+    "assetId": {
+      "type": "string",
+      "description": "Asset ID that the fee is denominated in"
+    },
+    "billedTo": {
+      "type": "string",
+      "description": "Party responsible for paying the fee"
+    },
+    "metadata": {
+      "type": "string",
+      "description": "Optional display and audit metadata for the fee"
+    },
+    "dueDate": {
+      "type": "string",
+      "description": "Date by which the fee must be paid, in ISO 8601 format"
+    },
+    "pastDueWindow": {
+      "type": "string",
+      "description": "Grace period after the due date before the fee is marked as past due"
+    }
+  }
+}

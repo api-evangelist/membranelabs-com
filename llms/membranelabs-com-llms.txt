@@ -1,0 +1,243 @@
+# Membrane Labs
+
+## Documentation
+
+- [Membrane Overview](https://docs.membranelabs.com/membrane-overview.md): Customizable, Enterprise-Grade Software for Digital Asset Management
+- [Lending](https://docs.membranelabs.com/financial-modules/lending.md): Welcome to the Lending V2 Documentation
+- [Loan Lifecycle](https://docs.membranelabs.com/financial-modules/lending/loan-lifecycle.md)
+- [Loan Proposals](https://docs.membranelabs.com/financial-modules/lending/loan-lifecycle/loan-proposals.md)
+- [Loan Positions Status](https://docs.membranelabs.com/financial-modules/lending/loan-lifecycle/loan-positions-status.md)
+- [Loan Dates Definitions](https://docs.membranelabs.com/financial-modules/lending/loan-lifecycle/loan-dates-definitions.md)
+- [Loan Display Name](https://docs.membranelabs.com/financial-modules/lending/loan-lifecycle/loan-display-name.md)
+- [Direction & Type](https://docs.membranelabs.com/financial-modules/lending/direction-and-type.md)
+- [Collateral Arrangement](https://docs.membranelabs.com/financial-modules/lending/collateral-arrangement.md): Enhancing Loan and Collateral Management cross Membrane Platform
+- [Unsecured Loans](https://docs.membranelabs.com/financial-modules/lending/collateral-arrangement/unsecured-loans.md): Creating and Managing Unsecured Loans on the Lending Platform
+- [Obligations, Payments & Balance in a Loan](https://docs.membranelabs.com/financial-modules/lending/obligations-payments-and-balance-in-a-loan.md): Dynamics of Loan Management
+- [Obligations Windows and Timer](https://docs.membranelabs.com/financial-modules/lending/obligations-payments-and-balance-in-a-loan/obligations-windows-and-timer.md): Tailoring Obligation Management to Business Needs
+- [Interest Payment Frequency](https://docs.membranelabs.com/financial-modules/lending/obligations-payments-and-balance-in-a-loan/interest-payment-frequency.md)
+- [Principal Management](https://docs.membranelabs.com/financial-modules/lending/principal-management.md): Guide to Principal Dynamics in Loan Terms
+- [Current Principal](https://docs.membranelabs.com/financial-modules/lending/principal-management/current-principal.md): Current Principal Balance Calculation
+- [Principal Debt](https://docs.membranelabs.com/financial-modules/lending/principal-management/principal-debt.md)
+- [Interest Calculations](https://docs.membranelabs.com/financial-modules/lending/interest-calculations.md)
+- [Interest Balances](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-balances.md)
+- [Interest Accrual](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual.md): Mastering the Timing of Interest Accrual and Obligations in Loan Management
+- [Floating Rate](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/floating-rate.md): Aligning Loan Rates with Market Movements for Smarter Lending
+- [Accrual Start Date](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/accrual-start-date.md)
+- [Accrual End Date](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/accrual-end-date.md)
+- [Accrual End Date in Fixed Term Loans](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/accrual-end-date/accrual-end-date-in-fixed-term-loans.md): Understanding Accrual End Date in Fixed Term Loans with Accrual End Event at Principal Payback
+- [Accrual Approach](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/accrual-approach.md)
+- [Accrual Day Excluded](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/accrual-day-excluded.md)
+- [Accrual Time & Timezone](https://docs.membranelabs.com/financial-modules/lending/interest-calculations/interest-accrual/accrual-time-and-timezone.md)
+- [Margin Methodology](https://docs.membranelabs.com/financial-modules/lending/margin-methodology.md)
+- [Marking Methodology](https://docs.membranelabs.com/financial-modules/lending/margin-methodology/marking-methodology.md)
+- [Import](https://docs.membranelabs.com/financial-modules/lending/import.md): Designed to improve operational efficiency and accuracy, this feature ensures that users can quickly onboard multiple loans with their corresponding details into the system.
+- [Collateral Management](https://docs.membranelabs.com/financial-modules/collateral-management.md)
+- [Pledgor & Pledgee](https://docs.membranelabs.com/financial-modules/collateral-management/pledgor-and-pledgee.md): Direction in Collateral Arrangements
+- [CA Lifecycle](https://docs.membranelabs.com/financial-modules/collateral-management/ca-lifecycle.md)
+- [CA Proposal Workflow](https://docs.membranelabs.com/financial-modules/collateral-management/ca-lifecycle/ca-proposal-workflow.md)
+- [Status Overview](https://docs.membranelabs.com/financial-modules/collateral-management/status-overview.md)
+- [Monitoring Collateral Health](https://docs.membranelabs.com/financial-modules/collateral-management/monitoring-collateral-health.md): This page provides an overview of how Membrane monitors Collateral Health
+- [Margin Call Process](https://docs.membranelabs.com/financial-modules/collateral-management/margin-call-process.md)
+- [Accelerated Margin Call](https://docs.membranelabs.com/financial-modules/collateral-management/margin-call-process/accelerated-margin-call.md)
+- [Modification Rights](https://docs.membranelabs.com/financial-modules/collateral-management/modification-rights.md)
+- [Supported Assets & LTVs](https://docs.membranelabs.com/financial-modules/collateral-management/supported-assets-and-ltvs.md)
+- [Collateral Balance](https://docs.membranelabs.com/financial-modules/collateral-management/collateral-balance.md)
+- [Associated Accounts](https://docs.membranelabs.com/financial-modules/collateral-management/collateral-balance/associated-accounts.md)
+- [Wallet Association Details](https://docs.membranelabs.com/financial-modules/collateral-management/collateral-balance/associated-accounts/wallet-association-details.md)
+- [Lending Value Calculations](https://docs.membranelabs.com/financial-modules/collateral-management/lending-value-calculations.md): Calculating Lending Values for Multiple Assets in a Collateral Arrangement
+- [Collateralization View](https://docs.membranelabs.com/financial-modules/collateral-management/lending-value-calculations/collateralization-view.md): Understanding Collateralization and Its Relationship with Loan to Value (LTV)
+- [Derivatives](https://docs.membranelabs.com/financial-modules/derivatives.md): version 1.1
+- [Derivatives Booking Lifecycle](https://docs.membranelabs.com/financial-modules/derivatives/derivatives-booking-lifecycle.md)
+- [Quote Proposal](https://docs.membranelabs.com/financial-modules/derivatives/derivatives-booking-lifecycle/quote-proposal.md)
+- [Order Statuses](https://docs.membranelabs.com/financial-modules/derivatives/derivatives-booking-lifecycle/order-statuses.md)
+- [Position Statuses](https://docs.membranelabs.com/financial-modules/derivatives/derivatives-booking-lifecycle/position-statuses.md)
+- [Order Display Name](https://docs.membranelabs.com/financial-modules/derivatives/derivatives-booking-lifecycle/order-display-name.md)
+- [Supported Derivatives](https://docs.membranelabs.com/financial-modules/derivatives/supported-derivatives.md)
+- [Supported Contracts: Types & Direction](https://docs.membranelabs.com/financial-modules/derivatives/supported-derivatives/supported-contracts-types-and-direction.md)
+- [Supported Strategies](https://docs.membranelabs.com/financial-modules/derivatives/supported-derivatives/supported-strategies.md)
+- [Settlement Capabilities](https://docs.membranelabs.com/financial-modules/derivatives/settlement-capabilities.md)
+- [Settlement Type & Supported Assets](https://docs.membranelabs.com/financial-modules/derivatives/settlement-capabilities/settlement-type-and-supported-assets.md)
+- [Obligations & Payments](https://docs.membranelabs.com/financial-modules/derivatives/settlement-capabilities/settlement-type-and-supported-assets/obligations-and-payments.md)
+- [Obligation Calculations](https://docs.membranelabs.com/financial-modules/derivatives/settlement-capabilities/settlement-type-and-supported-assets/obligation-calculations.md)
+- [Fixing Rate](https://docs.membranelabs.com/financial-modules/derivatives/settlement-capabilities/fixing-rate.md)
+- [Margin Methodology](https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology.md)
+- [Calculations for Initial Margin](https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology/calculations-for-initial-margin.md)
+- [Variation Margin, or Collateral Requirement Updates](https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology/variation-margin-or-collateral-requirement-updates.md)
+- [Calculations for MTM Updates](https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology/variation-margin-or-collateral-requirement-updates/calculations-for-mtm-updates.md)
+- [Marking Methodology & Cycle](https://docs.membranelabs.com/financial-modules/derivatives/margin-methodology/marking-methodology-and-cycle.md)
+- [Spot Trading](https://docs.membranelabs.com/financial-modules/spot-trading.md)
+- [Booking & Lifecycle of a Spot Trade](https://docs.membranelabs.com/financial-modules/spot-trading/booking-and-lifecycle-of-a-spot-trade.md)
+- [Risk](https://docs.membranelabs.com/financial-modules/risk.md): Tools to assess & optimize pre and post trade Risk
+- [Loan Margin Optimizer](https://docs.membranelabs.com/financial-modules/risk/loan-margin-optimizer.md): A pre-trade tool to calculate and find optimal collateralization values for new Loan positions.
+- [Loan Risk Calculator](https://docs.membranelabs.com/financial-modules/risk/loan-risk-calculator.md): A post-trade tool to evaluate the risk of existing positions.
+- [Simulation Models](https://docs.membranelabs.com/financial-modules/risk/simulation-models.md): Model types and descriptions for Risk simulations
+- [Treasury](https://docs.membranelabs.com/custodylink-tm/treasury.md): Welcome to the Treasury module.
+- [Obligations & Payments](https://docs.membranelabs.com/custodylink-tm/treasury/obligations-and-payments.md)
+- [Custom \[Membrane\] Payment from Treasury](https://docs.membranelabs.com/custodylink-tm/treasury/obligations-and-payments/custom-membrane-payment-from-treasury.md)
+- [Transfers](https://docs.membranelabs.com/custodylink-tm/treasury/transfers.md): A brief description of transfers
+- [Transfer Types](https://docs.membranelabs.com/custodylink-tm/treasury/transfers/transfer-types.md)
+- [Membrane Network | Custom & Payments](https://docs.membranelabs.com/custodylink-tm/treasury/transfers/transfer-types/membrane-network-or-custom-and-payments.md)
+- [One-Time Address](https://docs.membranelabs.com/custodylink-tm/treasury/transfers/transfer-types/one-time-address.md)
+- [Intra-Institution](https://docs.membranelabs.com/custodylink-tm/treasury/transfers/transfer-types/intra-institution.md)
+- [Actions](https://docs.membranelabs.com/custodylink-tm/treasury/transfers/actions.md)
+- [Settlements](https://docs.membranelabs.com/custodylink-tm/treasury/settlements.md)
+- [API Access](https://docs.membranelabs.com/custodylink-tm/treasury/api-access.md)
+- [Smart Settlements](https://docs.membranelabs.com/custodylink-tm/treasury/smart-settlements.md)
+- [Account Activity Tracking](https://docs.membranelabs.com/custodylink-tm/treasury/account-activity-tracking.md)
+- [Address Book](https://docs.membranelabs.com/custodylink-tm/treasury/address-book.md)
+- [Wallets & Accounts](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts.md)
+- [Connecting an Account](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/connecting-an-account.md): Step-by-Step Guide to connect Wallets & Accounts to your Membrane account
+- [Self-Custody](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody.md)
+- [Metamask](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/metamask.md)
+- [Metamask (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/metamask-old.md)
+- [Ledger](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/ledger.md)
+- [Simple Crypto](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/simple-crypto.md)
+- [Simple Crypto (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/simple-crypto-old.md)
+- [Wallet Connect](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/wallet-connect.md)
+- [Wallet Connect (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/self-custody/wallet-connect-old.md)
+- [Custodians](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians.md)
+- [Anchorage](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/anchorage.md)
+- [BitGo](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/bitgo.md)
+- [BitGo Go Network](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/bitgo-go-network.md)
+- [BitGo (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/bitgo-old.md)
+- [Coinbase Prime](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/coinbase-prime.md)
+- [Coinbase Prime (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/coinbase-prime-old.md)
+- [Copper](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/copper.md)
+- [Fireblocks](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/fireblocks.md)
+- [Fireblocks (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/fireblocks-old.md)
+- [Ledger TradeLink](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/ledger-tradelink.md)
+- [Zodia](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/custodians/zodia.md)
+- [Exchanges](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges.md)
+- [Binance](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/binance.md)
+- [Binance (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/binance-old.md)
+- [Bitstamp](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/bitstamp.md)
+- [Bitstamp (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/bitstamp-old.md)
+- [Bybit](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/bybit.md)
+- [Coinbase](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/coinbase.md)
+- [Crypto.com](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/crypto.com.md)
+- [Crypto.com (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/crypto.com-old.md)
+- [Kraken](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/kraken.md)
+- [Kraken (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/kraken-old.md)
+- [Deribit](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/deribit.md)
+- [Deribit (old)](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/deribit-old.md)
+- [OKX](https://docs.membranelabs.com/custodylink-tm/wallets-and-accounts/exchanges/okx.md)
+- [Assets & Blockchains Support](https://docs.membranelabs.com/assets-and-prices/assets-and-blockchains-support.md)
+- [Pricing Feed](https://docs.membranelabs.com/assets-and-prices/pricing-feed.md)
+- [Institutions & Collaborators](https://docs.membranelabs.com/user-accounts/institutions-and-collaborators.md)
+- [Collaborators](https://docs.membranelabs.com/user-accounts/institutions-and-collaborators/collaborators.md)
+- [Roles](https://docs.membranelabs.com/user-accounts/institutions-and-collaborators/roles.md): Membrane users are allowed to view pages and execute actions according to the role they have been assigned for each institution.
+- [Maker/Checker Workflows](https://docs.membranelabs.com/user-accounts/institutions-and-collaborators/maker-checker-workflows.md): Maker/Check workflows to comply with the 4 Eyes Principle
+- [Counterparties](https://docs.membranelabs.com/user-accounts/counterparties.md)
+- [Parent Institution](https://docs.membranelabs.com/user-accounts/parent-institution.md)
+- [Association to a Parent Institution](https://docs.membranelabs.com/user-accounts/parent-institution/association-to-a-parent-institution.md)
+- [Parent Institution Roles & Collaborators](https://docs.membranelabs.com/user-accounts/parent-institution/parent-institution-roles-and-collaborators.md)
+- [Parent Institutions & Counterparties](https://docs.membranelabs.com/user-accounts/parent-institution/parent-institutions-and-counterparties.md)
+- [Credit Limit](https://docs.membranelabs.com/user-accounts/parent-institution/parent-institutions-and-counterparties/credit-limit.md)
+- [Decimal Precision](https://docs.membranelabs.com/specs/decimal-precision.md)
+- [Email Notifications](https://docs.membranelabs.com/specs/email-notifications.md)
+- [Accessing and Managing Notifications](https://docs.membranelabs.com/specs/email-notifications/accessing-and-managing-notifications.md)
+- [Customization of Email Notifications for External Counterparties](https://docs.membranelabs.com/specs/email-notifications/customization-of-email-notifications-for-external-counterparties.md)
+- [Slack Integration Setup Guide](https://docs.membranelabs.com/specs/email-notifications/slack-integration-setup-guide.md)
+- [Webhook Events](https://docs.membranelabs.com/specs/webhook-events.md): Real-time webhook events documentation for platform integrations
+
+## Developers
+
+- [Introduction](https://docs.membranelabs.com/developers/introduction.md)
+- [Authentication](https://docs.membranelabs.com/developers/authentication.md)
+- [Okta Connection](https://docs.membranelabs.com/developers/okta-connection.md)
+- [Assets](https://docs.membranelabs.com/developers/asset-server/assets.md)
+- [Custom Assets](https://docs.membranelabs.com/developers/asset-server/custom-assets.md)
+- [Networks](https://docs.membranelabs.com/developers/asset-server/networks.md)
+- [Blockchains](https://docs.membranelabs.com/developers/asset-server/blockchains.md)
+- [Collateral Arrangements](https://docs.membranelabs.com/developers/collateral/collateral-arrangements.md)
+- [Edit Collateral Arrangements](https://docs.membranelabs.com/developers/collateral/edit-collateral-arrangements.md)
+- [Pledge Accounts](https://docs.membranelabs.com/developers/collateral/pledge-accounts.md)
+- [Payments](https://docs.membranelabs.com/developers/collateral/payments.md)
+- [Associated Positions](https://docs.membranelabs.com/developers/collateral/associated-positions.md)
+- [Obligations](https://docs.membranelabs.com/developers/collateral/obligations.md)
+- [Waivers](https://docs.membranelabs.com/developers/collateral/waivers.md)
+- [Collateral Arrangements Drafts](https://docs.membranelabs.com/developers/collateral/collateral-arrangements-drafts.md)
+- [Payment Drafts](https://docs.membranelabs.com/developers/collateral/payment-drafts.md)
+- [Drafts](https://docs.membranelabs.com/developers/collateral/drafts.md)
+- [Fees](https://docs.membranelabs.com/developers/collateral/fees.md)
+- [Account](https://docs.membranelabs.com/developers/external-accounts/account.md)
+- [Transaction](https://docs.membranelabs.com/developers/external-accounts/transaction.md)
+- [Sub Account](https://docs.membranelabs.com/developers/external-accounts/sub-account.md)
+- [Fiat](https://docs.membranelabs.com/developers/external-accounts/fiat.md)
+- [Orchestrator](https://docs.membranelabs.com/developers/external-accounts/orchestrator.md)
+- [Activity Tracker](https://docs.membranelabs.com/developers/external-accounts/activity-tracker.md)
+- [Account Activity](https://docs.membranelabs.com/developers/external-accounts/account-activity.md)
+- [Tags](https://docs.membranelabs.com/developers/external-accounts/tags.md)
+- [Loans](https://docs.membranelabs.com/developers/lending/loans.md)
+- [Edit Loans](https://docs.membranelabs.com/developers/lending/edit-loans.md)
+- [Loan Maturity Calendar](https://docs.membranelabs.com/developers/lending/loan-maturity-calendar.md)
+- [Loan Rates](https://docs.membranelabs.com/developers/lending/loan-rates.md)
+- [Waivers](https://docs.membranelabs.com/developers/lending/waivers.md)
+- [Payments](https://docs.membranelabs.com/developers/lending/payments.md)
+- [Associated Account](https://docs.membranelabs.com/developers/lending/associated-account.md)
+- [Payment Drafts](https://docs.membranelabs.com/developers/lending/payment-drafts.md)
+- [Loan Drafts](https://docs.membranelabs.com/developers/lending/loan-drafts.md)
+- [Repos](https://docs.membranelabs.com/developers/lending/repos.md)
+- [Edit Repos](https://docs.membranelabs.com/developers/lending/edit-repos.md)
+- [Repo Drafts](https://docs.membranelabs.com/developers/lending/repo-drafts.md)
+- [Repo Payment Drafts](https://docs.membranelabs.com/developers/lending/repo-payment-drafts.md)
+- [Drafts](https://docs.membranelabs.com/developers/lending/drafts.md)
+- [Fees](https://docs.membranelabs.com/developers/lending/fees.md)
+- [Assets](https://docs.membranelabs.com/developers/pricing/assets.md)
+- [Strategies](https://docs.membranelabs.com/developers/pricing/strategies.md)
+- [Custom Prices](https://docs.membranelabs.com/developers/pricing/custom-prices.md)
+- [Sources](https://docs.membranelabs.com/developers/pricing/sources.md)
+- [Accounts](https://docs.membranelabs.com/developers/settlement-classic/accounts.md)
+- [Transfers](https://docs.membranelabs.com/developers/settlement-classic/transfers.md)
+- [Manual Payment](https://docs.membranelabs.com/developers/settlement-classic/manual-payment.md)
+- [External Payments](https://docs.membranelabs.com/developers/settlement-classic/external-payments.md)
+- [Address Book](https://docs.membranelabs.com/developers/settlement-classic/address-book.md)
+- [Payments](https://docs.membranelabs.com/developers/settlement/payments.md)
+- [Quote](https://docs.membranelabs.com/developers/trading/quote.md)
+- [Position](https://docs.membranelabs.com/developers/trading/position.md)
+- [Payment](https://docs.membranelabs.com/developers/trading/payment.md)
+- [Counterparties](https://docs.membranelabs.com/developers/users/counterparties.md)
+- [External Counterparties](https://docs.membranelabs.com/developers/users/external-counterparties.md)
+- [Countries](https://docs.membranelabs.com/developers/users/countries.md)
+- [Events](https://docs.membranelabs.com/developers/event-relayer/events.md)
+- [Webhook Settings](https://docs.membranelabs.com/developers/event-relayer/webhook-settings.md)
+- [Report Schedule Settings](https://docs.membranelabs.com/developers/report-scheduler/report-schedule-settings.md)
+- [Loan Rfqs](https://docs.membranelabs.com/developers/membrane-market/loan-rfqs.md)
+- [Repo Rfqs](https://docs.membranelabs.com/developers/membrane-market/repo-rfqs.md)
+- [Loan Negotiations](https://docs.membranelabs.com/developers/membrane-market/loan-negotiations.md)
+- [Repo Negotiations](https://docs.membranelabs.com/developers/membrane-market/repo-negotiations.md)
+- [Counterparties](https://docs.membranelabs.com/developers/membrane-market/counterparties.md)
+- [Metadata](https://docs.membranelabs.com/developers/membrane-market/metadata.md)
+- [Risk](https://docs.membranelabs.com/developers/risk-beta/risk.md)
+- [Monthly Maintenance Window Schedule](https://docs.membranelabs.com/developers/maintenance/monthly-maintenance-window-schedule.md)
+
+## Release Notes
+
+- [Release Notes - 2025/10/24](https://docs.membranelabs.com/release-notes/release-notes-2025-10-24.md)
+- [Release Notes - 2025/09/15](https://docs.membranelabs.com/release-notes/release-notes-2025-09-15.md)
+- [Release Notes  - 2025/08/25](https://docs.membranelabs.com/release-notes/release-notes-2025-08-25.md)
+- [Release Notes - 2025/07/28](https://docs.membranelabs.com/release-notes/release-notes-2025-07-28.md)
+- [Release Notes - 2025/06/24](https://docs.membranelabs.com/release-notes/release-notes-2025-06-24.md)
+- [Release Notes - 2025/06/02](https://docs.membranelabs.com/release-notes/release-notes-2025-06-02.md)
+- [Release Notes - 2025/04/25](https://docs.membranelabs.com/release-notes/release-notes-2025-04-25.md)
+- [Release Notes - 2025/04/21](https://docs.membranelabs.com/release-notes/release-notes-2025-04-21.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+This site has an agentic ask interface you may use to query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.membranelabs.com/index.md?ask=<question>&goal=<user_goal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.

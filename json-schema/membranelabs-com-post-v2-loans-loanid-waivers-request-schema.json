@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/membranelabs-com/main/json-schema/membranelabs-com-post-v2-loans-loanid-waivers-request-schema.json",
+  "title": "PostV2LoansLoanidWaiversRequest",
+  "x-generated": "2026-10-22",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2LoansLoanidWaiversRequest",
+  "type": "object",
+  "properties": {
+    "waiverType": {
+      "type": "string",
+      "description": "Type of obligation being waived"
+    },
+    "amount": {
+      "type": "string",
+      "description": "Amount to waive as a decimal string"
+    },
+    "assetId": {
+      "type": "number",
+      "description": "Asset ID that the waiver is denominated in"
+    }
+  },
+  "required": [
+    "waiverType",
+    "amount",
+    "assetId"
+  ]
+}

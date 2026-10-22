@@ -1,0 +1,169 @@
+generated: '2026-10-22'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+vocabulary:
+  name: Membrane Domain Vocabulary
+  description: 'Terms declared by Membrane''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-22'
+  terms:
+  - term: GetDevelopersOktaConnectionMdResponse
+    definition: 'Object declared by the contract with fields: content.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetDevelopersOktaConnectionMdResponse
+  - term: PostLoanEventRequest
+    definition: 'Object declared by the contract with fields: loan_id, action.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostLoanEventRequest
+  - term: PostV1PaymentOffPlatformRequest
+    definition: 'Object declared by the contract with fields: positionId, assetId, amount, note, completedAt, transactionId.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV1PaymentOffPlatformRequest
+  - term: PostV1PaymentOffPlatformResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV1PaymentOffPlatformResponse
+  - term: GetV1QuoteResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV1QuoteResponse
+  - term: PostV1QuoteRequest
+    definition: 'Object declared by the contract with fields: CreateQuoteBodyDto.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV1QuoteRequest
+  - term: PostV1QuoteResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV1QuoteResponse
+  - term: GetV1QuoteAllResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV1QuoteAllResponse
+  - term: GetV2LoansLoanidFeesResponse
+    definition: 'Object declared by the contract with fields: entries, totalCount, aggregates.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV2LoansLoanidFeesResponse
+  - term: PostV2LoansLoanidFeesRequest
+    definition: 'Object declared by the contract with fields: amount, assetId, type, billedTo, metadata, pastDueWindow, dueDate.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2LoansLoanidFeesRequest
+  - term: PostV2LoansLoanidFeesResponse
+    definition: 'Object declared by the contract with fields: id.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2LoansLoanidFeesResponse
+  - term: DeleteV2LoansLoanidFeesFeeidResponse
+    definition: 'Object declared by the contract with fields: message.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/DeleteV2LoansLoanidFeesFeeidResponse
+  - term: GetV2LoansLoanidFeesFeeidResponse
+    definition: 'Object declared by the contract with fields: amount, assetId, type, billedTo, metadata, pastDueWindow, dueDate, id, loanId, paymentId,
+      status, dueStatus. (3 more)'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV2LoansLoanidFeesFeeidResponse
+  - term: PatchV2LoansLoanidFeesFeeidRequest
+    definition: 'Object declared by the contract with fields: amount, assetId, billedTo, metadata, dueDate, pastDueWindow.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PatchV2LoansLoanidFeesFeeidRequest
+  - term: PatchV2LoansLoanidFeesFeeidResponse
+    definition: 'Object declared by the contract with fields: message.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PatchV2LoansLoanidFeesFeeidResponse
+  - term: PostV2LoansLoanidWaiversRequest
+    definition: 'Object declared by the contract with fields: waiverType, amount, assetId.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2LoansLoanidWaiversRequest
+  - term: PostV2LoansLoanidWaiversResponse
+    definition: 'Object declared by the contract with fields: id.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2LoansLoanidWaiversResponse
+  - term: PostV2PaymentOffPlatformRequest
+    definition: 'Object declared by the contract with fields: positionId, assetId, amount, note, completedAt, transactionId.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2PaymentOffPlatformRequest
+  - term: PostV2PaymentOffPlatformResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2PaymentOffPlatformResponse
+  - term: GetV2QuoteResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV2QuoteResponse
+  - term: PostV2QuoteRequest
+    definition: 'Object declared by the contract with fields: CreateQuoteBodyDto.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2QuoteRequest
+  - term: PostV2QuoteResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/PostV2QuoteResponse
+  - term: GetV2QuoteAllResponse
+    definition: 'Object declared by the contract with fields: 200, 400, 403, 500.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV2QuoteAllResponse
+  - term: Api
+    definition: 'Resource group in the contract; its operation GET /api/v2/users/roles/permissions: Retrieves the list of available scopes you
+      can add to your JWT.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Custodylink Tm
+    definition: 'Resource group in the contract; its operation GET /custodylink-tm/treasury/api-access.md: API Access'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Developers
+    definition: 'Resource group in the contract; its operation GET /developers/introduction.md: Introduction'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Financial Modules
+    definition: 'Resource group in the contract; its operation GET /financial-modules/derivatives/margin-methodology.md: Performs an HTTP GET
+      request on the documentation page with optional `ask` and `goal` query parameters to retrieve a direct answer and relevant excerpts from
+      the documentation.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Loan Event
+    definition: 'Resource group in the contract; its operation POST /loan-event: Webhook Events'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Payment
+    definition: 'Resource group in the contract; its operation POST /v1/payment/off-platform: Create off platform payment'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Quote
+    definition: 'Resource group in the contract; its operation GET /v1/quote: Get quote'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml
+  - term: Loans
+    definition: 'Resource group in the contract; its operation GET /v2/loans/{loanid}/fees: Get fees for a loan'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/membranelabs-com-openapi-generated.yml

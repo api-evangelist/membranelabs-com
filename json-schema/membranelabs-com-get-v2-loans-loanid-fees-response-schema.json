@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/membranelabs-com/main/json-schema/membranelabs-com-get-v2-loans-loanid-fees-response-schema.json",
+  "title": "GetV2LoansLoanidFeesResponse",
+  "x-generated": "2026-10-22",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/membranelabs-com-openapi-generated.yml#/components/schemas/GetV2LoansLoanidFeesResponse",
+  "type": "object",
+  "properties": {
+    "entries": {
+      "type": "array",
+      "description": "List of fees for the requested page"
+    },
+    "totalCount": {
+      "type": "number",
+      "description": "Total number of fees matching the filter. Omitted when includeCount=false"
+    },
+    "aggregates": {
+      "type": "object",
+      "description": "Aggregate data, present only when includeAggregates=true"
+    }
+  }
+}
